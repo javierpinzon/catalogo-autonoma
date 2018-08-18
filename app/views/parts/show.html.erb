@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @part.nombre %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @part.desc %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @part.category %>
+</p>
+
+<p>
+  <strong>Products:</strong>
+  <%= @part.products %>
+</p>
+
+<%= link_to 'Edit', edit_part_path(@part) %> |
+<%= link_to 'Back', parts_path %>
